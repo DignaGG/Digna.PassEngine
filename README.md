@@ -42,4 +42,4 @@ This repository follows an evolutionary development path:
 
 **Design & Translation Note:** The core architecture, algorithms, and system logic of this engine are natively designed and developed in Turkish. To comply with international open-source coding standards, the code comments, docstrings, and this README were translated into English with AI assistance. The primary focus remains strictly on **cryptographic security**, **architectural stability**, and **clean development principles**.
 
-**License:** This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+License: This project is licensed under the MIT License
