@@ -1,0 +1,5 @@
+# Digna.PassEngine - Requirements
+# This project currently only provides the Python Standard Library.
+
+# Minimum required Python version
+python_version >= "3.14"
