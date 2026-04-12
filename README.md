@@ -31,8 +31,10 @@ This repository follows an evolutionary development path:
    ```bash
    git clone [https://github.com/DignaGG/Digna.PassEngine.git](https://github.com/DignaGG/Digna.PassEngine.git)
 2. Navigate to the directory:
+   ```bash
     cd Digna.PassEngine
 3. Run the engine:
+   ```bash
     python main.py
 
 ## ✍️ Author & Documentation Notes
