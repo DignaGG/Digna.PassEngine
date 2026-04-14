@@ -11,10 +11,9 @@ Digna.PassEngine is not just a simple script; it is a structured logic engine de
 ## 🏗️ Architecture
 The project is divided into discrete modules to ensure single responsibility and high maintainability:
 
-* **Core Engine (`generator.py`)**: Handles the password generation logic using the `secrets` module for cryptographically secure randomness.
-* **Validator (`validator.py`)**: A rule-based validation system that ensures every generated password meets strict security criteria.
-* **Data Models (`password_config.py`)**: Utilizes Python `dataclasses` for type-safe and structured configuration management.
-* **Enums (`password_type.py`)**: Defines password complexity levels for future strategy-based generation.
+* **Core Engine (`engine/generator`)**: Handles the password generation logic using the `secrets` module for cryptographically secure randomness.
+* **Validator (`engine/validator`)**: A rule-based validation system that ensures every generated password meets strict security criteria.
+* **Data Models & Enums (`engine/models`)**: Utilizes Python `dataclasses` for type-safe and structured configuration management. Defines password complexity levels for future strategy-based generation.
 
 ## 🔒 Security
 Unlike standard `random` libraries, this engine utilizes the **CSPRNG** (Cryptographically Secure Pseudo-Random Number Generator) provided by the Python `secrets` module, making it suitable for security-sensitive applications.
@@ -23,7 +22,7 @@ Unlike standard `random` libraries, this engine utilizes the **CSPRNG** (Cryptog
 This repository follows an evolutionary development path:
 
 - [x] **v1.0.0 (Baseline)**: Core logic, terminal interface, and modular class structure.
-- [ ] **v2.0.0 (Modular Refactoring)**: Transitioning to a professional Python package structure with directory-based modularity.
+- [x] **v2.0.0 (Modular Refactoring)**: Transitioning to a professional Python package structure with directory-based modularity.
 - [ ] **v3.0.0 (GUI Integration)**: Implementation of a modern Graphical User Interface (CustomTkinter/PyQt).
 
 ## 🛠️ Installation & Usage
