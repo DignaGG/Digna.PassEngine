@@ -4,7 +4,7 @@ Checks if generated password meets all security requirements.
 """
 
 import string
-from password_config import PasswordConfig
+from engine.models import PasswordConfig
 
 class PasswordValidator:
     """

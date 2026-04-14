@@ -4,9 +4,9 @@ Generates cryptographically secure passwords using secrets module.
 """
 
 import secrets, string
-from password_type import PasswordType
-from password_config import PasswordConfig
-from validator import PasswordValidator
+from engine.models import PasswordType
+from engine.models import PasswordConfig
+from engine.validator import PasswordValidator
 
 class PasswordGenerator:
     """

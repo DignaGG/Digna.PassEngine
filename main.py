@@ -1,6 +1,6 @@
-from password_config import PasswordConfig
-from generator import PasswordGenerator
-from validator import PasswordValidator
+from engine.models import PasswordConfig
+from engine.generator import PasswordGenerator
+from engine.validator import PasswordValidator
 
 def get_user_config():
     #Length
